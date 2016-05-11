@@ -1,0 +1,101 @@
+/* BEGIN demo_css */
+body {
+   background: #efefef;
+}
+#PageWrapper {
+   background: #ffffff;
+}
+h1 {
+ color: #1e73be;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-decoration: none;
+text-transform: uppercase;;
+}
+h2 {
+ ;
+}
+h3 {
+ ;
+}
+h4 {
+ ;
+}
+h5 {
+ ;
+}
+h6 {
+ ;
+}
+body, div, p {
+ color: #388700;
+font-family: Arial;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;;
+}
+
+#Footer-DesignedBy, #Footer-DesignedBy a, #Footer-DesignedBy p, #Footer-Copyright, #Footer-Copyright a{ 
+  color: #ffffff;;   
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+
+a { color: #009cea;
+text-decoration: none;
+text-transform: uppercase;; }
+a:visited { color: #009cea;
+text-decoration: none;
+text-transform: uppercase;; }
+a:hover { color: #dd0000;
+text-decoration: none;; }
+
+#DesktopNav a, #DesktopNav a:visited {
+    color: #d613b2;
+text-transform: uppercase;;
+}
+#DesktopNav a:hover {
+    color: #8224e3;
+text-transform: uppercase;;
+}
+
+/*  - SUB-MENU DROP DOWN BG COLOR */
+#DesktopNav li ul li, #DesktopNav li ul li a {
+    background-color: #dd3333;
+}
+#DesktopNav li ul li a:hover {
+    background-color: #dd3333;
+    color:  #991d1d;
+}
+#DesktopNav .menu-item-has-children {
+    background: url("http://www.wrdtempsite.com.au/wp-content/uploads/2014/10/dropmenu-arrow_blue.png") no-repeat center bottom;
+  background-size: 40;;
+}
+/*  - MOBILE NAV BAR BG COLOR */
+#mobile-nav ul li {
+  background:#dd3333;  
+}
+button.opened {
+  background-color:#dd3333;   
+}
+button.closed {
+  background-color:#dd3333;   
+}
+#mobile-nav .sub-menu {
+    background:  #991d1d;
+}
+#mobile-nav .sub-menu li a {
+    color:#dd3333;   
+}
+/*  - FOOTER BG COLOR */
+#FooterWrapper {
+  background:#dd3333;
+}
+/*  - HEADERBAR BG COLOR */
+#Headerbar {
+  background:#dd3333;
+}
+/* END demo_css */
